@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>861</width>
+                <height>566</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>MainWindow</string>
+        </property>
+        <property name="styleSheet">
+            <string notr="true"/>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <property name="autoFillBackground">
+                <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">#centralwidget{
+                    background:url(:/img/1.jpg);
+                    }
+                </string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+                <item>
+                    <layout class="QVBoxLayout" name="verticalLayout">
+                        <item>
+                            <widget class="QPushButton" name="pushButton_13">
+                                <property name="styleSheet">
+                                    <string notr="true">#pushButton_13:hover{
+                                        background-color:rgba(0, 136, 204, 90);
+                                        color:rgb(255, 170, 255);
+                                        }
+                                        #pushButton_13:pressed{
+                                        background-color:rgba(0, 136, 204, 40);
+                                        color:rgb(255, 170, 255);
+                                        }
+                                        #pushButton_13{
+                                        background-color:rgba(0, 170, 255, 140);
+                                        color:rgb(255, 170, 255);
+                                        font: 11pt &quot;黑体&quot;;
+                                        test-shadow:2px 2px 2px rgb(0, 170, 255);
+                                        border-style:solid;
+                                        border-width:1px;
+                                        border-color:rgba(255, 170, 0,255);
+                                        border-radius:6px;
+                                        outline-style:solid;
+                                        outline-width:1px;
+                                        outline-color:rgb(255, 170, 127);
+                                        outline-offset:1px;
+                                        }
+                                    </string>
+                                </property>
+                                <property name="text">
+                                    <string>选择图片目录</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <layout class="QGridLayout" name="gridLayout">
+                                <item row="2" column="1">
+                                    <widget class="QPushButton" name="pushButton_8">
+                                        <property name="sizePolicy">
+                                            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                                                <horstretch>1</horstretch>
+                                                <verstretch>1</verstretch>
+                                            </sizepolicy>
+                                        </property>
+                                        <property name="maximumSize">
+                                            <size>
+                                                <width>1677</width>
+                                                <height>1677</height>
+                                            </size>
+                                        </property>
+                                        <property name="autoFillBackground">
+                                            <bool>false</bool>
+                                        </property>
+                                        <property name="styleSheet">
+                                            <string notr="true">#pushButton_8:hover{
+                                                background-color:rgba(0, 136, 204, 90);
+                                                color:rgb(255, 170, 255);
+                                                }
+                                                #pushButton_8:pressed{
+                                                background-color:rgba(0, 136, 204, 40);
+                                                color:rgb(255, 170, 255);
+                                                }
+                                                #pushButton_8{
+                                                background-color:rgba(0, 170, 255, 140);
+                                                color:rgb(255, 170, 255);
+                                                font: 11pt &quot;黑体&quot;;
+                                                test-shadow:2px 2px 2px rgb(0, 170, 255);
+                                                border-style:solid;
+                                                border-width:1px;
+                                                border-color:rgba(255, 170, 0,255);
+                                                border-radius:6px;
+                                                outline-style:solid;
+                                                outline-width:1px;
+                                                outline-color:rgb(255, 170, 127);
+                                                outline-offset:2px;
+                                                }
+                                            </string>
+                                        </property>
+                                        <property name="text">
+                                            <string>MSRCP</string>
+                                        </property>
+                                        <property name="checkable">
+                                            <bool>true</bool>
+                                        </property>
+                                        <property name="autoDefault">
+                                            <bool>true</bool>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="0" column="0">
+                                    <widget class="QPushButton" name="pushButton">
+                                        <property name="sizePolicy">
+                                            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                                                <horstretch>1</horstretch>
+                                                <verstretch>1</verstretch>
+                                            </sizepolicy>
+                                        </property>
+                                        <property name="maximumSize">
+                                            <size>
+                                                <width>1677</width>
+                                                <height>1677</height>
+                                            </size>
+                                        </property>
+                                        <property name="focusPolicy">
+                                            <enum>Qt::StrongFocus</enum>
+                                        </property>
+                                        <property name="acceptDrops">
+                                            <bool>false</bool>
+                                        </property>
+                                        <property name="autoFillBackground">
+                                            <bool>false</bool>
+                                        </property>
+                                        <property name="styleSheet">
+                                            <string notr="true">#pushButton:hover{
+                                                background-color:rgba(0, 136, 204, 90);
+                                                color:rgb(255, 170, 255);
+                                                }
+                                                #pushButton:pressed{
+                                                background-color:rgba(0, 136, 204, 40);
+                                                color:rgb(255, 170, 255);
+                                                }
+                                                #pushButton{
+                                                background-color:rgba(0, 170, 255, 140);
+                                                color:rgb(255, 170, 255);
+                                                font: 11pt &quot;黑体&quot;;
+                                                test-shadow:2px 2px 2px rgb(0, 170, 255);
+                                                border-style:solid;
+                                                border-width:1px;
+                                                border-color:rgba(255, 170, 0,255);
+                                                border-radius:6px;
+                                                outline-style:solid;
+                                                outline-width:1px;
+                                                outline-color:rgb(255, 170, 127);
+                                                outline-offset:2px;
+                                                }
+                                            </string>
+                                        </property>
+                                        <property name="text">
+                                            <string>HE</string>
+                                        </property>
+                                        <property name="checkable">
+                                            <bool>true</bool>
+                                        </property>
+                                        <property name="autoDefault">
+                                            <bool>true</bool>
+                                        </property>
+                                        <property name="default">
+                                            <bool>false</bool>
+                                        </property>
+                                        <property name="flat">
+                                            <bool>false</bool>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="1" column="2">
+                                    <widget class="QPushButton" name="pushButton_6">
+                                        <property name="sizePolicy">
+                                            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                                                <horstretch>1</horstretch>
+                                                <verstretch>1</verstretch>
+                                            </sizepolicy>
+                                        </property>
+                                        <property name="maximumSize">
+                                            <size>
+                                                <width>1677</width>
+                                                <height>1677</height>
+                                            </size>
+                                        </property>
+                                        <property name="autoFillBackground">
+                                            <bool>false</bool>
+                                        </property>
+                                        <property name="styleSheet">
+                                            <string notr="true">#pushButton_6:hover{
+                                                background-color:rgba(0, 136, 204, 90);
+                                                color:rgb(255, 170, 255);
+                                                }
+                                                #pushButton_6:pressed{
+                                                background-color:rgba(0, 136, 204, 40);
+                                                color:rgb(255, 170, 255);
+                                                }
+                                                #pushButton_6{
+                                                background-color:rgba(0, 170, 255, 140);
+                                                color:rgb(255, 170, 255);
+                                                font: 11pt &quot;黑体&quot;;
+                                                test-shadow:2px 2px 2px rgb(0, 170, 255);
+                                                border-style:solid;
+                                                border-width:1px;
+                                                border-color:rgba(255, 170, 0,255);
+                                                border-radius:6px;
+                                                outline-style:solid;
+                                                outline-width:1px;
+                                                outline-color:rgb(255, 170, 127);
+                                                outline-offset:2px;
+                                                }
+                                            </string>
+                                        </property>
+                                        <property name="text">
+                                            <string>MSRCR</string>
+                                        </property>
+                                        <property name="checkable">
+                                            <bool>true</bool>
+                                        </property>
+                                        <property name="autoDefault">
+                                            <bool>true</bool>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="2" column="2">
+                                    <widget class="QPushButton" name="pushButton_9">
+                                        <property name="sizePolicy">
+                                            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                                                <horstretch>1</horstretch>
+                                                <verstretch>1</verstretch>
+                                            </sizepolicy>
+                                        </property>
+                                        <property name="maximumSize">
+                                            <size>
+                                                <width>1677</width>
+                                                <height>1676</height>
+                                            </size>
+                                        </property>
+                                        <property name="autoFillBackground">
+                                            <bool>false</bool>
+                                        </property>
+                                        <property name="styleSheet">
+                                            <string notr="true">#pushButton_9:hover{
+                                                background-color:rgba(0, 136, 204, 90);
+                                                color:rgb(255, 170, 255);
+                                                }
+                                                #pushButton_9:pressed{
+                                                background-color:rgba(0, 136, 204, 40);
+                                                color:rgb(255, 170, 255);
+                                                }
+                                                #pushButton_9{
+                                                background-color:rgba(0, 170, 255, 140);
+                                                color:rgb(255, 170, 255);
+                                                font: 11pt &quot;黑体&quot;;
+                                                test-shadow:2px 2px 2px rgb(0, 170, 255);
+                                                border-style:solid;
+                                                border-width:1px;
+                                                border-color:rgba(255, 170, 0,255);
+                                                border-radius:6px;
+                                                }
+                                            </string>
+                                        </property>
+                                        <property name="text">
+                                            <string>ACE</string>
+                                        </property>
+                                        <property name="checkable">
+                                            <bool>true</bool>
+                                        </property>
+                                        <property name="autoDefault">
+                                            <bool>true</bool>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="1" column="0">
+                                    <widget class="QPushButton" name="pushButton_4">
+                                        <property name="sizePolicy">
+                                            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+                                                <horstretch>1</horstretch>
+                                                <verstretch>1</verstretch>
+                                            </sizepolicy>
+                                        </property>
+                                        <property name="maximumSize">
+                                            <size>
+                                                <width>1677</width>
+                                                <height>1677</height>
+                                            </size>
+                                        </property>
+                                        <property name="autoFillBackground">
+                                            <bool>false</bool>
+                                        </property>
+                                        <property name="styleSheet">
+                                            <string notr="true">#pushButton_4:hover{
+                                                background-color:rgba(0, 136, 204, 90);
+                                                color:rgb(255, 170, 255);
+                                                }
+                                                #pushButton_4:pressed{
+                                                background-color:rgba(0, 136, 204, 40);
+                                                color:rgb(255, 170, 255);
+                                                }
+
+
+                                                #pushButton_4{
+                                                background-color:rgba(0, 170, 255, 140);
+                                                color:rgb(255, 170, 255);
+                                                font: 11pt &quot;黑体&quot;;
+                                                test-shadow:2px 2px 2px rgb(0, 170, 255);
+                                                border-style:solid;
+                                                border-width:1px;
+                                                border-color:rgba(255, 170, 0,255);
+                                                border-radius:6px;
+                                                outline-style:solid;
+                                                outline-width:1px;
+                                                outline-color:rgb(255, 170, 127);
+                                                outline-offset:2px;
+                                                }
+                                            </string>
+                                        </property>
+                                        <property name="text">
+                                            <string>SSR</string>
+                                        </property>
+                                        <property name="checkable">
+                                            <bool>true</bool>
+                                        </property>
+                                        <property name="autoDefault">
+                                            <bool>true</bool>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="0" column="1">
+                                    <widget class="QPushButton" name="pushButton_2">
+                                        <property name="sizePolicy">
+                                            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                                                <horstretch>1</horstretch>
+                                                <verstretch>1</verstretch>
+                                            </sizepolicy>
+                                        </property>
+                                        <property name="maximumSize">
+                                            <size>
+                                                <width>1677</width>
+                                                <height>1677</height>
+                                            </size>
+                                        </property>
+                                        <property name="autoFillBackground">
+                                            <bool>false</bool>
+                                        </property>
+                                        <property name="styleSheet">
+                                            <string notr="true">#pushButton_2:hover{
+                                                background-color:rgba(0, 136, 204, 90);
+                                                color:rgb(255, 170, 255);
+                                                }
+                                                #pushButton_2:pressed{
+                                                background-color:rgba(0, 136, 204, 40);
+                                                color:rgb(255, 170, 255);
+                                                }
+
+                                                #pushButton_2{
+                                                background-color:rgba(0, 170, 255, 140);
+                                                color:rgb(255, 170, 255);
+                                                font: 11pt &quot;黑体&quot;;
+                                                test-shadow:2px 2px 2px rgb(0, 170, 255);
+                                                border-style:solid;
+                                                border-width:1px;
+                                                border-color:rgba(255, 170, 0,255);
+                                                border-radius:6px;
+                                                outline-style:solid;
+                                                outline-width:1px;
+                                                outline-color:rgb(255, 170, 127);
+                                                outline-offset:2px;
+                                                }
+                                            </string>
+                                        </property>
+                                        <property name="text">
+                                            <string>CLAHE</string>
+                                        </property>
+                                        <property name="checkable">
+                                            <bool>true</bool>
+                                        </property>
+                                        <property name="autoDefault">
+                                            <bool>true</bool>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="0" column="2">
+                                    <widget class="QPushButton" name="pushButton_3">
+                                        <property name="sizePolicy">
+                                            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                                                <horstretch>1</horstretch>
+                                                <verstretch>1</verstretch>
+                                            </sizepolicy>
+                                        </property>
+                                        <property name="maximumSize">
+                                            <size>
+                                                <width>1677</width>
+                                                <height>1677</height>
+                                            </size>
+                                        </property>
+                                        <property name="autoFillBackground">
+                                            <bool>false</bool>
+                                        </property>
+                                        <property name="styleSheet">
+                                            <string notr="true">
+                                                #pushButton_3:hover{
+                                                background-color:rgba(0, 136, 204, 90);
+                                                color:rgb(255, 170, 255);
+                                                }
+                                                #pushButton_3:pressed{
+                                                background-color:rgba(0, 136, 204, 40);
+                                                color:rgb(255, 170, 255);
+                                                }
+                                                #pushButton_3{
+                                                background-color:rgba(0, 170, 255, 140);
+                                                color:rgb(255, 170, 255);
+                                                font: 11pt &quot;黑体&quot;;
+                                                test-shadow:2px 2px 2px rgb(0, 170, 255);
+                                                border-style:solid;
+                                                border-width:1px;
+                                                border-color:rgba(255, 170, 0,255);
+                                                border-radius:6px;
+                                                outline-style:solid;
+                                                outline-width:1px;
+                                                outline-color:rgb(255, 170, 127);
+                                                outline-offset:2px;
+                                                }
+                                            </string>
+                                        </property>
+                                        <property name="text">
+                                            <string>SCB</string>
+                                        </property>
+                                        <property name="checkable">
+                                            <bool>true</bool>
+                                        </property>
+                                        <property name="autoDefault">
+                                            <bool>true</bool>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="3" column="2">
+                                    <widget class="QPushButton" name="pushButton_12">
+                                        <property name="sizePolicy">
+                                            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                                                <horstretch>1</horstretch>
+                                                <verstretch>1</verstretch>
+                                            </sizepolicy>
+                                        </property>
+                                        <property name="autoFillBackground">
+                                            <bool>false</bool>
+                                        </property>
+                                        <property name="styleSheet">
+                                            <string notr="true">#pushButton_12:hover{
+                                                background-color:rgba(0, 136, 204, 90);
+                                                color:rgb(255, 170, 255);
+                                                }
+                                                #pushButton_12:pressed{
+                                                background-color:rgba(0, 136, 204, 40);
+                                                color:rgb(255, 170, 255);
+                                                }
+                                                #pushButton_12{
+                                                background-color:rgba(0, 170, 255, 140);
+                                                color:rgb(255, 170, 255);
+                                                font: 11pt &quot;黑体&quot;;
+                                                test-shadow:2px 2px 2px rgb(0, 170, 255);
+                                                border-style:solid;
+                                                border-width:1px;
+                                                border-color:rgba(255, 170, 0,255);
+                                                border-radius:6px;
+                                                outline-style:solid;
+                                                outline-width:1px;
+                                                outline-color:rgb(255, 170, 127);
+                                                outline-offset:2px;
+                                                }
+                                            </string>
+                                        </property>
+                                        <property name="text">
+                                            <string>PushButton</string>
+                                        </property>
+                                        <property name="checkable">
+                                            <bool>true</bool>
+                                        </property>
+                                        <property name="autoDefault">
+                                            <bool>true</bool>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="2" column="0">
+                                    <widget class="QPushButton" name="pushButton_7">
+                                        <property name="sizePolicy">
+                                            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                                                <horstretch>1</horstretch>
+                                                <verstretch>1</verstretch>
+                                            </sizepolicy>
+                                        </property>
+                                        <property name="maximumSize">
+                                            <size>
+                                                <width>1677</width>
+                                                <height>1677</height>
+                                            </size>
+                                        </property>
+                                        <property name="autoFillBackground">
+                                            <bool>false</bool>
+                                        </property>
+                                        <property name="styleSheet">
+                                            <string notr="true">#pushButton_7:hover{
+                                                background-color:rgba(0, 136, 204, 90);
+                                                color:rgb(255, 170, 255);
+                                                }
+                                                #pushButton_7:pressed{
+                                                background-color:rgba(0, 136, 204, 40);
+                                                color:rgb(255, 170, 255);
+                                                }
+                                                #pushButton_7{
+                                                background-color:rgba(0, 170, 255, 140);
+                                                color:rgb(255, 170, 255);
+                                                font: 11pt &quot;黑体&quot;;
+                                                test-shadow:2px 2px 2px rgb(0, 170, 255);
+                                                border-style:solid;
+                                                border-width:1px;
+                                                border-color:rgba(255, 170, 0,255);
+                                                border-radius:6px;
+                                                outline-style:solid;
+                                                outline-width:1px;
+                                                outline-color:rgb(255, 170, 127);
+                                                outline-offset:2px;
+                                                }
+                                            </string>
+                                        </property>
+                                        <property name="text">
+                                            <string>AMSRCR</string>
+                                        </property>
+                                        <property name="checkable">
+                                            <bool>true</bool>
+                                        </property>
+                                        <property name="autoDefault">
+                                            <bool>true</bool>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="1" column="1">
+                                    <widget class="QPushButton" name="pushButton_5">
+                                        <property name="sizePolicy">
+                                            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                                                <horstretch>1</horstretch>
+                                                <verstretch>1</verstretch>
+                                            </sizepolicy>
+                                        </property>
+                                        <property name="maximumSize">
+                                            <size>
+                                                <width>1677</width>
+                                                <height>1677</height>
+                                            </size>
+                                        </property>
+                                        <property name="autoFillBackground">
+                                            <bool>false</bool>
+                                        </property>
+                                        <property name="styleSheet">
+                                            <string notr="true">#pushButton_5:hover{
+                                                background-color:rgba(0, 136, 204, 90);
+                                                color:rgb(255, 170, 255);
+                                                }
+                                                #pushButton_5:pressed{
+                                                background-color:rgba(0, 136, 204, 40);
+                                                color:rgb(255, 170, 255);
+                                                }
+
+                                                #pushButton_5{
+                                                background-color:rgba(0, 170, 255, 140);
+                                                color:rgb(255, 170, 255);
+                                                font: 11pt &quot;黑体&quot;;
+                                                test-shadow:2px 2px 2px rgb(0, 170, 255);
+                                                border-style:solid;
+                                                border-width:1px;
+                                                border-color:rgba(255, 170, 0,255);
+                                                border-radius:6px;
+                                                outline-style:solid;
+                                                outline-width:1px;
+                                                outline-color:rgb(255, 170, 127);
+                                                outline-offset:2px;
+                                                }
+                                            </string>
+                                        </property>
+                                        <property name="text">
+                                            <string>MSR</string>
+                                        </property>
+                                        <property name="checkable">
+                                            <bool>true</bool>
+                                        </property>
+                                        <property name="autoDefault">
+                                            <bool>true</bool>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="3" column="1">
+                                    <widget class="QPushButton" name="pushButton_11">
+                                        <property name="sizePolicy">
+                                            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                                                <horstretch>1</horstretch>
+                                                <verstretch>1</verstretch>
+                                            </sizepolicy>
+                                        </property>
+                                        <property name="autoFillBackground">
+                                            <bool>false</bool>
+                                        </property>
+                                        <property name="styleSheet">
+                                            <string notr="true">#pushButton_11:hover{
+                                                background-color:rgba(0, 136, 204, 90);
+                                                color:rgb(255, 170, 255);
+                                                }
+                                                #pushButton_11:pressed{
+                                                background-color:rgba(0, 136, 204, 40);
+                                                color:rgb(255, 170, 255);
+                                                }
+                                                #pushButton_11{
+                                                background-color:rgba(0, 170, 255, 140);
+                                                color:rgb(255, 170, 255);
+                                                font: 11pt &quot;黑体&quot;;
+                                                test-shadow:2px 2px 2px rgb(0, 170, 255);
+                                                border-style:solid;
+                                                border-width:1px;
+                                                border-color:rgba(255, 170, 0,255);
+                                                border-radius:6px;
+                                                outline-style:solid;
+                                                outline-width:1px;
+                                                outline-color:rgb(255, 170, 127);
+                                                outline-offset:2px;
+                                                }
+                                            </string>
+                                        </property>
+                                        <property name="text">
+                                            <string>USM</string>
+                                        </property>
+                                        <property name="checkable">
+                                            <bool>true</bool>
+                                        </property>
+                                        <property name="autoDefault">
+                                            <bool>true</bool>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="3" column="0">
+                                    <widget class="QPushButton" name="pushButton_10">
+                                        <property name="sizePolicy">
+                                            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                                                <horstretch>1</horstretch>
+                                                <verstretch>1</verstretch>
+                                            </sizepolicy>
+                                        </property>
+                                        <property name="maximumSize">
+                                            <size>
+                                                <width>1677</width>
+                                                <height>1677</height>
+                                            </size>
+                                        </property>
+                                        <property name="autoFillBackground">
+                                            <bool>false</bool>
+                                        </property>
+                                        <property name="styleSheet">
+                                            <string notr="true">#pushButton_10:hover{
+                                                background-color:rgba(0, 136, 204, 90);
+                                                color:rgb(255, 170, 255);
+                                                }
+                                                #pushButton_10:pressed{
+                                                background-color:rgba(0, 136, 204, 40);
+                                                color:rgb(255, 170, 255);
+                                                }
+                                                #pushButton_10{
+                                                background-color:rgba(0, 170, 255, 140);
+                                                color:rgb(255, 170, 255);
+                                                font: 11pt &quot;黑体&quot;;
+                                                test-shadow:2px 2px 2px rgb(0, 170, 255);
+                                                border-style:solid;
+                                                border-width:1px;
+                                                border-color:rgba(255, 170, 0,255);
+                                                border-radius:6px;
+                                                outline-style:solid;
+                                                outline-width:1px;
+                                                outline-color:rgb(255, 170, 127);
+                                                outline-offset:2px;
+                                                }
+                                            </string>
+                                        </property>
+                                        <property name="text">
+                                            <string>sharp</string>
+                                        </property>
+                                        <property name="checkable">
+                                            <bool>true</bool>
+                                        </property>
+                                        <property name="autoDefault">
+                                            <bool>true</bool>
+                                        </property>
+                                    </widget>
+                                </item>
+                            </layout>
+                        </item>
+                    </layout>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QMenuBar" name="menubar">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>861</width>
+                    <height>26</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QStatusBar" name="statusbar"/>
+    </widget>
+    <resources>
+        <include location="apprcc.qrc"/>
+    </resources>
+    <connections/>
+</ui>
